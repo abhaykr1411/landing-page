@@ -1,0 +1,99 @@
+/* General */
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* First block */
+.topContainer
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+h1
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.topContainer .content
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.topContainer .content .main-content
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px;
+    gap: 350px;
+}
+
+.topContainer .content .header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.topContainer .content .header ul
+{
+    display: flex;
+    gap: 16px;
+}
+
+.topContainer .content .main-content .para
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+}
+
+.topContainer .content .main-content .para p,
+.topContainer .content .header ul li a
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topContainer .content .header .logo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.topContainer .content .main-content .para button
+{
+    width: 125px;
+    padding: 5px 25px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+img
+{
+    height: 240px;
+}
