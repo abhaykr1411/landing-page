@@ -178,7 +178,7 @@ h1
 /* fourth container */
 .fourthContainer
 {
-    margin: 100px 200px;
+    margin: 100px 175px;
     background-color: #3882F6;
     color: white;
     padding: 60px 150px;
@@ -202,4 +202,15 @@ h1
     background-color: #3882F6;
     border: 2.5px solid white;
     border-radius: 10px;
+}
+
+/* Footer */
+footer
+{
+    background-color: #1F2937;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 75px;
 }
