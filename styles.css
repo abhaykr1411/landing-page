@@ -176,3 +176,30 @@ h1
 }
 
 /* fourth container */
+.fourthContainer
+{
+    margin: 100px 200px;
+    background-color: #3882F6;
+    color: white;
+    padding: 60px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthContainer .content h3
+{
+    font-size: 30px;
+}
+
+.fourthContainer button
+{
+    padding: 8px 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    border: 2.5px solid white;
+    border-radius: 10px;
+}
