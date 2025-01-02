@@ -1,216 +1,64 @@
-/* General */
-*
-{
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
     margin: 0;
-    font-family: Roboto;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul
-{
-    list-style-type: none;
-}
-
-a
-{
-    text-decoration: none;
-    color: black;
-}
-
-/* First block */
-.topContainer
-{
-    display: flex;
-    justify-content: center;
+.first {
     background-color: #1F2937;
+    font-family: "Roboto", serif;
+    max-height: 500px;
 }
 
-h1
-{
-    font-size: 48px;
-    font-weight: bolder;
+.first header{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.first header .logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.first header .navigation{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.first header .navigation a{
+    text-decoration: none;
     color: #F9FAF8;
 }
 
-.topContainer .content
-{
+.first .content{
     display: flex;
-    flex-direction: column;
-    max-width: 75%;
-}
-
-.topContainer .content .main-content
-{
-    display: flex;
-    justify-content: space-between;
-    padding: 90px 0px;
-    gap: 75px;    
-}
-
-.topContainer .content .header
-{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-}
-
-.topContainer .content .header ul
-{
-    display: flex;
-    gap: 16px;
-}
-
-.topContainer .content .main-content .para
-{
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    width: 450px;
 }
 
-.topContainer .content .main-content .para p,
-.topContainer .content .header ul li a
-{
+.first .content .intro-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.first .content .intro-text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.first .content .intro-text p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.topContainer .content .header .logo
-{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.topContainer .content .main-content .para button
-{
-    width: 125px;
-    padding: 5px 25px;
-    font-size: 18px;
+.first .content .intro-text button{
     background-color: #3882F6;
     color: white;
-    font-weight: bold;
-    border-radius: 8px;
-    border: none;
-}
-
-.topContainer .content .main-content .img-ph
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 220px;
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.3);
-    color: white;
-    flex-shrink: 0;
-}
-
-/* second Container */
-.secondContainer .content .item .img-ph
-{
-    width: 175px;
-    height: 175px;
-    border: 4px solid #3882F6;    
-    border-radius: 12px;
-}
-
-.secondContainer
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0;
-}
-
-.secondContainer h2
-{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
-
-.secondContainer .content
-{
-    display: flex;
-    justify-content: space-between;
-    gap: 75px;
-    padding: 50px 0;
-}
-
-.secondContainer .content .item 
-{
-    display: flex;
-    flex-direction: column;
-    max-width: 175px;
-}
-
-.secondContainer .content .item p
-{
-    text-align: center;
-}
-
-/* Third container */
-.thirdContainer
-{
-    background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0;
-}
-
-.thirdContainer .content .quote
-{
-    font-size: 36px;
-    font-style: italic;
-    max-width: 775px;
-    font-weight: 300;
-}
-
-.thirdContainer .content .credit
-{
-    display: flex;
-    justify-content: end;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-/* fourth container */
-.fourthContainer
-{
-    margin: 100px 175px;
-    background-color: #3882F6;
-    color: white;
-    padding: 60px 150px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.fourthContainer .content h3
-{
-    font-size: 30px;
-}
-
-.fourthContainer button
-{
-    padding: 8px 40px;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    background-color: #3882F6;
-    border: 2.5px solid white;
-    border-radius: 10px;
-}
-
-/* Footer */
-footer
-{
-    background-color: #1F2937;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 75px;
 }
