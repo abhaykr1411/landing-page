@@ -9,56 +9,96 @@
 .first {
     background-color: #1F2937;
     font-family: "Roboto", serif;
-    max-height: 500px;
 }
 
-.first header{
+.first .content header{
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    justify-content: space-between;
     align-items: baseline;
+    padding:18px 0 75px;
 }
 
-.first header .logo-text{
+.first .content{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first .content header .logo-text{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    width: 450px;
 }
 
-.first header .navigation{
+.first .content header .navigation{
     display: flex;
     list-style-type: none;
     gap: 20px;
 }
 
-.first header .navigation a{
+.first .content header .navigation a{
     text-decoration: none;
     color: #F9FAF8;
 }
 
-.first .content{
+.first .content .hero{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 75px;
 }
 
-.first .content .intro-text{
+.first .content .hero .intro-text{
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 450px;
+    align-items: flex-start;
 }
 
-.first .content .intro-text h1{
+.first .content .hero .placeholder-img{
+    background-color: #e5e7eb8d;
+    height: 210.8px;
+    width: 480px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .content .hero .intro-text h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.first .content .intro-text p{
+.first .content .hero .intro-text p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.first .content .intro-text button{
+.first .content .hero .intro-text button{
     background-color: #3882F6;
     color: white;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+.second {
+    text-align: center;
+}
+
+.second .showcase-img-grp {
+    display: flex;
+}
+
+.second .showcase-img-grp .showcase-img .frame{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
 }
