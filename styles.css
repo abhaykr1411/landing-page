@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", serif;
 }
 
 .first {
     background-color: #1F2937;
-    font-family: "Roboto", serif;
 }
 
 .first .content header{
@@ -95,10 +95,74 @@
 
 .second .showcase-img-grp {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second .showcase-img-grp .showcase-img {
+    max-width: 150px;
+    margin-bottom: 80px;
+}
+
+.second h2{
+    margin: 25px 0 25px;
+    font-size: 28px;
 }
 
 .second .showcase-img-grp .showcase-img .frame{
-    height: 100px;
-    width: 100px;
-    border: 5px solid red;
+    height: 150px;
+    width:150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 100px 360px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.third p{
+    font-size: 36px;
+    font-weight: 350;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.fourth .content{
+    background-color: #3882F6;
+    width: 70%;
+    height: 40%;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourth .content button{
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 6px;
+    width: 110px;
+    height: 25px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
